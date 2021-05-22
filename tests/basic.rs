@@ -2,7 +2,7 @@ use lock_order::lock;
 use std::sync::Mutex;
 
 #[test]
-fn foo() {
+fn simple_usage() {
     let lock1 = Mutex::new(1);
     let lock2 = Mutex::new(2);
     {
