@@ -12,6 +12,7 @@ keywords = ["locking", "ordering", "deadlock"]
 
 [lib]
 proc-macro = true
+path = "src/lib.rs"
 
 [dependencies]
 
