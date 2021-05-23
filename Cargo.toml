@@ -6,7 +6,7 @@ authors = ["Alaric <alaric+cratesio@doublethink.co.uk>"]
 edition = "2018"
 description = "Utility macro for helping produce a deterministic lock ordering to prevent deadlocks"
 repository = "https://github.com/alaric/lock_order"
-keywords = ["locking", "ordering", "deterministic-locking"]
+keywords = ["locking", "ordering", "deadlock"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
